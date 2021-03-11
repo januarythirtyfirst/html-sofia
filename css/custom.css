@@ -1,3 +1,17 @@
+/* my rules
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@font-face { 
+  font-family: Adventure Time Logo; 
+  src: url('/fonts/AdventureTimeLogo.ttf');
+  font-weight: 100;
+	font-style: normal;
+}
+
+
+
+
+
+
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button {
@@ -91,9 +105,7 @@
       z-index: 2;
       max-height: 338px;
     }
-    .hero-heading {
-      font-size: 2.4rem;
-    }
+    
   }
   
   /* Bigger than 750 */
@@ -103,6 +115,7 @@
     }
     .hero-heading {
       font-size: 2.6rem;
+      font-family: Adventure Time Logo;
     }
     .section {
       padding: 14rem 0 15rem;
@@ -137,9 +150,7 @@
     .hero {
       padding: 22rem 0;
     }
-    .hero-heading {
-      font-size: 3.0rem;
-    }
+  
     .jake {
       top: -16rem;
       max-height: 615px;
