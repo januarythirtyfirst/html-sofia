@@ -176,10 +176,11 @@ body {
 
 @font-face { 
   font-family: Adventure Time Logo; 
-  src: url('/fonts/AdventureTimeLogo.ttf');
+  src: url('../fonts/AdventureTimeLogo.ttf');
   font-weight: 100;
 	font-style: normal;
 }
+
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
